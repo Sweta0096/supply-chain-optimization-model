@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1ePfBWCBK8szcvuroTWiPb7UWzcfIU6UE
 """
 
-!pip install pulp
-
 from plant_location import PlantLocation
 from aggregate_planner import AggregatePlanner
 import matplotlib.pyplot as plt
