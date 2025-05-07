@@ -28,7 +28,6 @@ def demo_plant():
     pl.solve(fixed, ship_cost, demand, capacity)
     pl.summarize()
     pl.plot(plants, regions)
-    #plt.title("Plant Location Demo") # Add a title
     plt.show() # Call show after plotting
 
 def demo_agg():
