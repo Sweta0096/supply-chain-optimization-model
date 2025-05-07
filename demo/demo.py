@@ -42,7 +42,6 @@ def demo_agg():
              init_work=12, init_inv=15)
     ap.summarize()
     ap.plot()
-    #plt.title("Aggregate Planner Demo") # Add a title
     plt.show() # Call show after plotting
 
 if __name__ == "__main__":
